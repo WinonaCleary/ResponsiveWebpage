@@ -1,0 +1,94 @@
+html{
+    margin: 0px;
+    background-color: lavender;
+    height: 150%;
+}
+
+nav{
+    background-color: lightcoral;
+   height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+nav a:target{
+    color: greenyellow;
+}
+
+h1{
+    font: 26pt;
+    justify-content: center;
+
+}
+
+.Nav{
+    display: flex;
+    font: 16pt bold;
+    padding-top: 20px;
+}
+
+a{
+    margin: 5px;
+    color: seagreen;
+    text-decoration: none;
+}
+
+.Learn{
+    background-color: lightgreen;
+    min-height: 50px;
+    width: 200px;
+}
+
+.More{
+    font-size: 20px;
+}
+
+.container{
+    background-color: lightcyan;
+    padding: 5px;
+    height: 150px;
+}
+
+.container1{
+    background-color: lightcyan;
+    padding: 5px;
+   height: 480px;
+    width: 100%;
+}
+
+.box{
+    background-color: white;
+    height: 450px;
+    width: 300px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+embed{
+    justify-content: center;
+}
+
+@media screen and (min-device-width: 800px){
+    .container1{
+        height: 100px;
+        width: 250px;
+        margin: 8px;
+    }
+
+    .container{
+        margin: 8px;
+        float: left;
+    }
+}
+
+@media screen and (max-device-width: 800px){
+    .container1{
+        height: 800px;
+        width: 100%;
+        display: block;
+    }
